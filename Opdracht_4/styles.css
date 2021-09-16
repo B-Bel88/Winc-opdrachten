@@ -1,0 +1,32 @@
+body{
+    color: blue;
+    background-color: #BBBAB9;
+    
+}
+.black-border{
+    border: 5px solid black;
+}
+p{
+    color: black;font-style: oblique;
+}
+h1{
+    color: blue; font-size: 65px; font-weight: bold;
+    font-style: inherit;
+    
+}
+h2{
+    color: blue; font-size: 30px;font-style:oblique;
+}
+.blue{
+    color: #0000ff;
+}
+h3{
+   color: black; 
+} 
+.blockquote{
+    margin:1em 3em;
+    color: black;
+    border-left: 2px solid black;
+    padding-left: 1em;   
+}
+
