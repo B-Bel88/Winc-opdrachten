@@ -1,0 +1,126 @@
+body{
+    color: black;
+    background-color: #BBBAB9;
+    margin-left: 30px; margin-bottom: 30px;  
+}
+header{
+    border: 10px solid rgb(101, 148, 74);border-radius: 15px;
+    text-align: center;
+    margin: 0.5px 0.5px 0.5px 0.5px;
+    
+}
+main{
+    text-align: center;
+    margin: 1em;  
+    border: 5px solid rgb(101, 148, 74);border-radius: 15px; 
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: black;font-style: oblique;
+    font-size: 20px;
+    padding-left: 10px; padding-right: 10px;
+    padding-top: 15px;padding-bottom: 15px;
+}
+h1{
+    color: blue; font-size: 4em; font-weight: bold;
+    font-style: inherit; margin-bottom: 30px;
+}
+h2{
+    color: blue; font-size: 30px;font-style:oblique;
+    padding: 15px 50px 10px 50px;
+}
+h3{
+   color: black; 
+} 
+.blockquote{
+    margin:1em 3em;
+    color: black;
+    border-left: 2px solid black; padding-left: 1em;   
+    text-align: center;
+}
+.margin{
+    margin: 0 auto;
+    width: auto; 
+}
+.blue{
+    color: #0000ff;
+}
+.black-border{
+    border: 5px solid black;
+    border-radius: 15px;
+}
+.ul{
+    list-style-type: none;
+    margin: 25px;
+    padding: 10px;
+    font-size: 25px;font-weight: bold;
+}  
+.li{
+    display: inline;
+}
+.v{
+    list-style-type: none;
+    text-align: left;
+    margin: 3em;    
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: lightblue;
+    }
+    header {
+        font-size: 62%;
+        text-align: center;
+        padding: 10px;
+        margin: 2em 3.5em;
+        inline-size: auto;
+        
+    }
+    h1 {
+        color: black;
+        font-size: 5em;
+        text-align: center;       
+    }
+    h2 {
+        color: black;
+    }
+    h3 {
+        color: black;
+    }
+    ul {
+        color: black;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    a {
+        color: #f75c83;
+    }
+    }
+@media (min-width: 1024px) {
+    body{
+        background-color: #f75c8357;
+        color:saddlebrown;
+        font-size: 1em;
+        
+    }
+    header{
+        color: saddlebrown;
+    }
+    h1{ 
+        color: saddlebrown;
+        font-size: 7em;
+    }
+    h2 {
+        color: saddlebrown;
+    }
+    h3 {
+        color: saddlebrown;
+    }
+    li a {
+        font-size: 2em;
+        color: rgb(126, 31, 121);
+    }
+}
