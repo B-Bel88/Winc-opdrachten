@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact information</title>
+    <link rel="stylesheet" type="text/css" href="../Opdracht_9/styles.css">
+
+</head>
+
+<body>
+    <header>
+
+        <h1>Contact information</h1>
+        <ul class="ul">
+            <li class="li"><a href="index.html">Home</a></li>
+            <li class="li"><a href="about.html">About</a></li>
+            <li class="li"><a href="Blog.html">Blog</a></li>
+        </ul>
+    </header>
+    <main>
+
+        <head>
+            <h2>Send in your Recipies</h2>
+        </head>
+        <form name="contact" method="POST" data-netlify="true">
+
+            <label for="fname"> first name</label>
+            <input class="cfl" type="text" id="f.name" name="fname" required><br>
+            <label for="email"> E-mail</label>
+            <input class="cfl" type="email" id="e-mail" name="email" required><br>
+            <label for="tel num"> Telefoon nr</label>
+            <input class="cfl" type="tel" id="tel." name="telefoon"><br>
+            <label for="age"> Age</label>
+            <input class="cfl" type="number" id="age." name="age" min="18" max="120" step="5" required><br>
+            <label for="dob"> Date of birth</label>
+            <input class="cfl" type="date" id="dob." name="dob" min="2003-01-01" required><br>
+            <label for="Bio"> Bio</label>
+            <input class="cfl" type="text" id="bio." name="bio"><br>
+            <label for="url">URL</label>
+            <input class="cfl" type="url" id="Url." name="url"><br>
+            <label for="recipe"> Last recipe made</label>
+            <input class="cfl" type="file" id="lrecipe" name="last recipe"><br>
+            <label for="gender"> Please choose your gender:</label>
+            <label class="cfl"> Male <input type="radio" name="gender" id="male" value="male"></label>
+            <label class="cfl"> Female <input type="radio" name="gender" id="felmale" value="female"></label><br>
+            <label for="cuisine"> Favorite cuisine:</label>
+            <label> Italian <input type="checkbox" id="italian." name="Italian"></label>
+            <label> French <input type="checkbox" id="french." name="French"></label>
+            <label> Spanish <input type="checkbox" id="spanich."></label>
+            <label> Arabian <input type="checkbox" id="arabian."></label><br>
+            <br>
+            <br>
+            <input class="buttonc" type="reset">
+            <button class="buttonc" type="Submit">Subimit</button>
+            <br>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <a href="http://www.google.com" target="_blank">
+            <h3>Google</h3>
+        </a>
+        <a href="http://www.wincacademy.nl" target="_blank">
+            <h3>Winc Academy</h3>
+        </a>
+    </footer>
+
+
+
+
+</body>
+
+</html>
